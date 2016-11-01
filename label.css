@@ -1,0 +1,152 @@
+/*#sidebar, #home-widgets, #top-stories{ 
+    display:none !important; 
+}
+
+#blog{
+    width:100%;  
+}*/ 
+ 
+.Blog .post {  
+    width: 48%; 
+    height: 450px;
+    display: inline-block;
+    float: left;  
+    margin: 20px 1%;
+    border: 1px solid #fefefe;
+    /* padding-bottom: 64%; */
+    overflow: hidden;
+    font-size: 14px;
+    border: 1px solid #efefef;
+}
+.Blog h3.post-title.entry-title {
+    font-size: 24px;
+    padding: 10px 5px 0px;
+    border-bottom: 3px solid #333;
+    margin: 0 ;
+}
+
+.Blog h3.post-title.entry-title a{
+    font-size: 24px;
+    margin: 0 ;
+}
+
+.Blog .post-info{
+    display:none;
+}
+ 
+.Blog .post-body {
+    padding: 0 10px 5px;
+    margin: 0;
+    font: 16px "Arial" normal normal !important;
+    color:#333 !important;  
+    overflow: hidden;
+    position: relative;
+}
+
+.Blog .post-body span {
+    font: 16px "Arial" normal normal !important;
+    color:#333 !important;  
+    background:none;
+    border:none;
+}
+
+.Blog .post-body a{
+    margin: 0 !important;
+}
+
+.Blog .post-body img {
+    width: 102%;
+    height: 200px;
+    object-fit: cover;
+    position: relative; 
+    margin:0;  
+    display:none;
+}
+
+.Blog .post-body iframe { 
+    width: 102%; 
+    height: auto;  
+    object-fit: cover;
+    position: relative; 
+    margin:0;  
+    display:none;
+}
+.Blog .post-body h1, .Blog .post-body h2, .Blog .post-body h3, .Blog .post-body h4 {
+   font-size:16px;
+   font-weight:normal;
+}
+
+
+.Blog .post-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.Blog .jump-link {
+    background: #f96;  
+    width: auto;
+    display: inline;
+    padding: 0 5px;
+    color: #fff;
+    font-size: 1vw;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 46px;
+    z-index: 2;
+    line-height: 46px; 
+}
+
+.post-labels a {
+float: left;
+}
+
+.Blog .jump-link:hover {
+    background: #333;
+
+}
+
+.Blog .jump-link a {
+    color:#fff;
+}
+
+.first-post-img{
+    width:100%;
+    height:200px;
+    display:inline-block;   
+	margin:0 0 10px; 
+	position:relative;  
+	float:left;
+	object-fit: cover;
+}
+
+ 
+
+/* Label Status Message
+———————————————–*/
+.status-msg-body {
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: #f96;
+    margin: 0 0 20px;
+    display: inline-block;
+    position: relative;
+}
+
+@media (max-width: 950px) {
+.Blog .post {
+    width: 48%; 
+}  
+
+}
+@media (max-width: 680px) { 
+    .Blog .post {
+        width: 99%; 
+    } 
+    .Blog .jump-link {
+        font-size: 14px;
+    }
+}
